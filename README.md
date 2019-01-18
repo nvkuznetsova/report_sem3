@@ -1,19 +1,19 @@
 # report_sem3
 
-###PZAT-001 / TEST-001    
-####Асинхронное тестирование, Zombie + Puppeteer  
+### PZAT-001 / TEST-001    
+#### Асинхронное тестирование, Zombie + Puppeteer  
 [Задание 1](https://github.com/nvkuznetsova/labs_sem3/tree/master/ex1_0709)
 [Задание 2](https://github.com/nvkuznetsova/labs_sem3/tree/master/ex2_0709)
 [Puppeteer](https://github.com/nvkuznetsova/labs_sem3/tree/master/ex3_0709)
 -----
 
-###NODE-001 
-####Создание простого сервера на простом модуле http
+### NODE-001 
+#### Создание простого сервера на простом модуле http
 [Simple server](https://github.com/nvkuznetsova/labs_sem3/tree/master/lab2_1409/ex2)
 -----
 
-###NODE-002 
-###Считывание информации из API
+### NODE-002 
+### Считывание информации из API
 [Repo](https://github.com/nvkuznetsova/lab3)
 [Heroku example]()
 ```
