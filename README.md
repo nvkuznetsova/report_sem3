@@ -6,16 +6,16 @@
 [Задание 2](https://github.com/nvkuznetsova/labs_sem3/tree/master/ex2_0709)<br>
 [Puppeteer](https://github.com/nvkuznetsova/labs_sem3/tree/master/ex3_0709)
 
-
+-----
 ### NODE-001 
 #### Создание простого сервера на простом модуле http<br>
 [Repo](https://github.com/nvkuznetsova/labs_sem3/tree/master/lab2_1409/ex2)
 
-
+-----
 ### NODE-002 
 #### Считывание информации из API
 [Repo](https://github.com/nvkuznetsova/lab3)<br>
-[Heroku example]()<br>Add!
+[Heroku example](https://safe-coast-86169.herokuapp.com)<br>
 #### Index.js
 ```
   .get('/weather', async(req, res) => {
@@ -34,7 +34,7 @@
 ### NODE-003
 #### Считывание информации из RSS
 [Repo](https://github.com/nvkuznetsova/lab3)<br>
-[Heroku example]()<br>
+[Heroku example](https://safe-coast-86169.herokuapp.com/node_rss/7)<br>
 #### Index.js
 ```
   .get('/node_rss/:n', async (req, res) => {
@@ -54,16 +54,51 @@
 ### NODE-004
 #### Анализ стрима
 [Repo](https://github.com/nvkuznetsova/lab3)<br>
-[Heroku example]()<br>
+[Heroku example](https://safe-coast-86169.herokuapp.com/buffer)<br>
 #### Index.js
 ```
+  .get('/buffer', (req, res) => {
+    const URL = 'http://kodaktor.ru/api2/buffer2';
+    const num = 333;
+    const reg = /\w{4}/g;
+    let word = '';
+    const numsArr = [...Array.from(Array(2).keys(), x => x + num)];
+    const length = numsArr.length;
+    const resArr = [];
+    numsArr.forEach(number => {
 
+      http.get(`${URL}/${number}`, response => {
+        let data = '';
+        response.on('data', chunk => {
+          const found = String(chunk).match(reg);
+          if (found && !word) {
+            let [foundWord] = found;
+            word = foundWord;
+          }
+          data += chunk;
+        });
+        response.on('end', () => {
+          resArr.push({
+            number: number,
+            size: data.length,
+          });
+
+          if(resArr.length === length) {
+            let result = resArr.map((item) => {
+              return `Number: ${item.number}, Size (V2): ${item.size} <br>`;
+            })
+            res.send(`Secret word: <strong>${word}</strong> <br> ${result}`);
+          } 
+        });
+      });
+    });
+  })
 ```
 -----
 ### GZIP-0001
 #### Созданиие зипующего стрима
 [Repo](https://github.com/nvkuznetsova/lab3)<br>
-[Heroku example]()<br>
+[Heroku example](https://safe-coast-86169.herokuapp.com/zip)<br>
 #### Index.js
 ```
   .get('/zip', (req, res) => {
@@ -86,14 +121,6 @@
 #### Задание с исследованием аутентификации, в том числе Passport.JS
 [Repo]()Add!
 
-### NODE-004
-#### Реализация виртуальных хостов с помощью node
-[Repo](https://github.com/nvkuznetsova/lab3)<br>
-[Heroku example]()<br>Add!
-#### Index.js
-```
-
-```
 -----
 ### SOCK-001
 #### Чат на socket.io и на ReactPHP (по материалам доклада 30.11.2018)
