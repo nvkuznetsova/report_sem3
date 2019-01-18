@@ -1,16 +1,16 @@
 # report_sem3
 
 ### PZAT-001 / TEST-001    
-#### Асинхронное тестирование, Zombie + Puppeteer  
+#### Асинхронное тестирование, Zombie + Puppeteer
 [Задание 1](https://github.com/nvkuznetsova/labs_sem3/tree/master/ex1_0709)<br>
 [Задание 2](https://github.com/nvkuznetsova/labs_sem3/tree/master/ex2_0709)<br>
 [Puppeteer](https://github.com/nvkuznetsova/labs_sem3/tree/master/ex3_0709)
------
+
 
 ### NODE-001 
-#### Создание простого сервера на простом модуле http
-[Simple server](https://github.com/nvkuznetsova/labs_sem3/tree/master/lab2_1409/ex2)
------
+#### Создание простого сервера на простом модуле http<br>
+[Repo](https://github.com/nvkuznetsova/labs_sem3/tree/master/lab2_1409/ex2)
+
 
 ### NODE-002 
 #### Считывание информации из API
@@ -81,11 +81,11 @@
 ### CODE-001
 #### Хакатон с отправкой зашифрованного сообщения
 [Repo](https://github.com/nvkuznetsova/report_sem3/tree/master/23112018)
------
+
 ### AUTH-001
 #### Задание с исследованием аутентификации, в том числе Passport.JS
 [Repo]()Add!
------
+
 ### NODE-004
 #### Реализация виртуальных хостов с помощью node
 [Repo](https://github.com/nvkuznetsova/lab3)<br>
@@ -94,11 +94,12 @@
 ```
 
 ```
+-----
 ### SOCK-001
 #### Чат на socket.io и на ReactPHP (по материалам доклада 30.11.2018)
 [Soclet.io](https://github.com/nvkuznetsova/report_sem3/tree/master/node_chat)<br>
 [ReactPHP]()Add!
------
+
 ### NODE-005
 #### Развёртывание CMS на Node и их сравнительный анализ при сопоставлении с CMS на PHP. Пример: Ghost vs WordPress
 -----
