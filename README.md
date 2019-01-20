@@ -15,7 +15,7 @@
 ### NODE-002 
 #### Считывание информации из API
 [Repo](https://github.com/nvkuznetsova/lab3)<br>
-[Heroku example](https://safe-coast-86169.herokuapp.com)<br>
+Этот адрес больше не валидный, а новый еще не получила( Но когда был валидный все работало
 #### Index.js
 ```
   .get('/weather', async(req, res) => {
