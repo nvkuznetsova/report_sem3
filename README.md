@@ -119,7 +119,8 @@
 
 ### AUTH-001
 #### Задание с исследованием аутентификации, в том числе Passport.JS
-[Repo](https://github.com/nvkuznetsova/authentication)
+[Repo](https://github.com/nvkuznetsova/authentication/tree/master)<br>
+[Passport.JS](https://github.com/nvkuznetsova/authentication/tree/google_auth)
 
 -----
 ### SOCK-001
