@@ -1,0 +1,6 @@
+{
+    "name": "hobbit/ratchet_chat",
+    "require": {
+        "cboden/ratchet": "^0.4.1"
+    }
+}
