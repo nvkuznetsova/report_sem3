@@ -119,13 +119,13 @@
 
 ### AUTH-001
 #### Задание с исследованием аутентификации, в том числе Passport.JS
-[Repo]()Add!
+[Repo](https://github.com/nvkuznetsova/authentication)
 
 -----
 ### SOCK-001
 #### Чат на socket.io и на ReactPHP (по материалам доклада 30.11.2018)
 [Soclet.io](https://github.com/nvkuznetsova/report_sem3/tree/master/node_chat)<br>
-[ReactPHP]()Add!
+[ReactPHP using Ratchet chat](https://github.com/nvkuznetsova/report_sem3/tree/master/ratchet_chat)
 
 ### NODE-005
 #### Развёртывание CMS на Node и их сравнительный анализ при сопоставлении с CMS на PHP. Пример: Ghost vs WordPress
