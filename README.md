@@ -120,7 +120,7 @@
 ### AUTH-001
 #### Задание с исследованием аутентификации, в том числе Passport.JS
 [Repo](https://github.com/nvkuznetsova/authentication/tree/master)<br>
-[Heroku example](https://ancient-ocean-93292.herokuapp.com/login)
+[Heroku example](https://ancient-ocean-93292.herokuapp.com/login)<br>
 [Passport.JS](https://github.com/nvkuznetsova/authentication/tree/google_auth)
 
 -----
