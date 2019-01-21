@@ -131,6 +131,8 @@
 
 ### NODE-005
 #### Развёртывание CMS на Node и их сравнительный анализ при сопоставлении с CMS на PHP. Пример: Ghost vs WordPress
+[Ghost vs Wordpress](https://github.com/nvkuznetsova/report_sem3/blob/master/ghost%20vs%20wordpress.pdf)
+
 -----
 ### TERM-001
 #### ИТОГОВОЕ задание / задание по практике
